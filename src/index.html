@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" type="text/css" href="./styles/main.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section id="choose-mode">
+        <button id="single-player" class="btn-mode">Singleplayer</button
+        ><button id="multi-player" class="btn-mode">Multiplayer</button>
+      </section>
+      <section id="game">
+        <div class="button-container">
+          <button class="rock button-markup">
+            <image
+              src="./img/rock-white.png"
+              alt="Rock"
+              class="game-image"
+            ></image>
+          </button>
+          <button class="paper button-markup">
+            <image
+              src="./img/airplane-white.png"
+              alt="Paper"
+              class="game-image"
+            ></image>
+          </button>
+          <button class="scissors button-markup">
+            <image
+              src="./img/scissors-white.png"
+              alt="Scissors"
+              class="game-image"
+            ></image>
+          </button>
+        </div>
+        <div class="results-container">
+          <div class="player-block">
+            <div class="player-name"></div>
+            <div class="player-count">0</div>
+          </div>
+          <div class="computer-block">
+            <div class="computer-name">Computer:</div>
+            <div class="computer-count">0</div>
+          </div>
+        </div>
+        <div class="game-message-block">
+          Wins
+        </div>
+      </section>
+      <form class="insert-name-block">
+        <label for="player-name-input">Enter Username</label>
+        <input type="text" value="test" id="player-name-input" placeholder="Name" />
+        <button class="player-name-btn">Start Playing</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>

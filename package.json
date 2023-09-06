@@ -1,0 +1,11 @@
+{
+  "name": "rpc-game",
+  "version": "1.0.0",
+  "description": "Rock Paper Scissors, multiplayer and singleplayer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evano Seraus",
+  "license": "ISC"
+}
