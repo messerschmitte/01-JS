@@ -1,6 +1,8 @@
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+
 import { initSinglePlayer, insertNameBlock } from './gameLogicSingleplayer.js';
 import { initMultiPlayer, insertNamesBlock } from './gameLogicMultiplayer.js';
-
 
 const singlePlayer = document.querySelector('#single-player');
 const multiPlayer = document.querySelector('#multi-player');
@@ -9,7 +11,6 @@ const chooseMode = document.querySelector('#choose-mode');
 const playerNameBtn = document.querySelector('.player-name-btn');
 const playerName = document.querySelector('.player-name');
 const playerNameInput = document.querySelector('#player-name-input');
-
 
 export const gameData = {
   playerChosenName: '',
@@ -46,14 +47,14 @@ function selectMode(mode) {
     initMultiPlayer();
     insertNameBlock.style.display = 'flex';
     chooseMode.style.display = 'none';
-    playerNameBtn.addEventListener('click', setPlayerName, { once: true }, );
+    playerNameBtn.addEventListener('click', setPlayerName, { once: true });
 
     console.log(`${mode}player mode selected`);
   }
 }
 
 export function setPlayerName(e) {
-  e.preventDefault()
+  e.preventDefault();
   if (!playerNameInput.value) return;
   gameData.playerChosenName = playerNameInput.value;
   playerName.innerText = `${playerNameInput.value}:`;
@@ -62,3 +63,7 @@ export function setPlayerName(e) {
   insertNameBlock.remove();
   document.querySelector('#game').style.display = 'flex';
 }
+
+// if (module.hot) {
+//   module.hot.accept();
+// }
