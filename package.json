@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint src/**/*.js"
   },
   "author": "Evano Seraus",
   "license": "ISC",
