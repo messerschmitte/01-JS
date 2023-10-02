@@ -1,11 +1,11 @@
-export function countDown() {
+setTimeout(() => {
   let count = 3;
-  const myCountDown = setInterval(function () {
-    if (count === 0) { 
-      clearInterval(myCountDown);
-      return count = 'START'
-     }
-    console.log(`${count}`)
-    return count--;
-  }, 1000);
-}
+  if (count === 0) {
+    clearInterval();
+    count = "START";
+    return count;
+  }
+  console.log(`${count}`);
+  count -= 1;
+  return count;
+}, 1000);
