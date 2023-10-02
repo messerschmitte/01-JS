@@ -4,3 +4,4 @@ dist
 .eslintrc.js
 .husky
 commitlint.config.js
+.prettierignore
