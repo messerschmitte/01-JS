@@ -1,3 +1,7 @@
+import rockWhiteIMG from "../static/rock-white.png";
+import airplaneWhiteIMG from "../static/airplane-white.png";
+import scissorsWhiteIMG from "../static/scissors-white.png";
+
 const parentElement = document.querySelector(".parent-container");
 
 let playerNameInput;
@@ -16,21 +20,21 @@ function generateMarkup() {
         <div class="button-container">
           <button class="rock button-markup">
             <image
-              src="./img/rock-white.png"
+              src="${rockWhiteIMG}"
               alt="Rock"
               class="game-image"
             ></image>
           </button>
           <button class="paper button-markup">
             <image
-              src="./img/airplane-white.png"
+              src="${airplaneWhiteIMG}"
               alt="Paper"
               class="game-image"
             ></image>
           </button>
           <button class="scissors button-markup">
             <image
-              src="./img/scissors-white.png"
+              src="${scissorsWhiteIMG}"
               alt="Scissors"
               class="game-image"
             ></image>

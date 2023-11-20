@@ -59,6 +59,7 @@ function evaluateValues() {
   }
   console.log(state.gameMessage);
 }
+
 export function selectRock() {
   state.inputPlayer = "rock";
   getComputerInput();
