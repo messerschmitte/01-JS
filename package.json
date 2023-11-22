@@ -43,5 +43,12 @@
   "lint-staged": {
     "src/**/*.{js,css,html}": "prettier --write",
     "src/**/*.js": "eslint"
+  },
+  "standard-version": {
+    "skip": {
+      "bump": false,
+      "commit": true,
+      "tag": false
+    }
   }
 }
