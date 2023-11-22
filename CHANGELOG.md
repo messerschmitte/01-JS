@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2-prerelease.0](https://github.com/messerschmitte/01-JS/compare/v1.0.1...v1.0.2-prerelease.0) (2023-11-22)
+
+
+### Bug Fixes
+
+* fix images import ([b76b85c](https://github.com/messerschmitte/01-JS/commit/b76b85cbb2a4efee6b35ce3b06849d4ca848f195))
+
 ### [1.0.1](https://github.com/messerschmitte/01-JS/compare/v1.1.0...v1.0.1) (2023-10-02)
 
 ## 1.1.0 (2023-10-02)

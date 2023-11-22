@@ -1,6 +1,6 @@
 {
   "name": "rpc-game",
-  "version": "1.0.1",
+  "version": "1.0.2-prerelease.0",
   "description": "Rock Paper Scissors, multiplayer and singleplayer",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -8,7 +8,11 @@
     "build": "parcel build src/index.html",
     "prepare": "husky install",
     "lint": "eslint src/**/*.js",
-    "release": "standard-version"
+    "release": "standard-version",
+    "release-patch": "standard-version --release-as patch",
+    "release-minor": "standard-version --release-as minor",
+    "release-major": "standard-version --release-as major",
+    "prerelease": "standard-version --prerelease prerelease"
   },
   "author": "Evano Seraus",
   "license": "ISC",
