@@ -1,6 +1,27 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [1.0.2-prerelease.3](https://github.com/messerschmitte/01-JS/compare/v1.0.2-prerelease.2...v1.0.2-prerelease.3) (2023-12-05)
+
+
+### Bug Fixes
+
+* remove commit on standard version scripts ([b74b279](https://github.com/messerschmitte/01-JS/commit/b74b279118dd20f639a08176b0fbcf7681748ca3))
+
+## [1.0.2-prerelease.1](https://github.com/messerschmitte/01-JS/compare/v1.0.2-prerelease.2...v1.0.2-prerelease.1) (2023-12-05)
+
+
+### Bug Fixes
+
+* remove commit on standard version scripts ([b74b279](https://github.com/messerschmitte/01-JS/commit/b74b279118dd20f639a08176b0fbcf7681748ca3))
+
+## [1.0.2-prerelease.0](https://github.com/messerschmitte/01-JS/compare/v1.0.2-prerelease.2...v1.0.2-prerelease.0) (2023-12-05)
+
+
+### Bug Fixes
+
+* remove commit on standard version scripts ([b74b279](https://github.com/messerschmitte/01-JS/commit/b74b279118dd20f639a08176b0fbcf7681748ca3))
 
 ### [1.0.2-prerelease.2](https://github.com/messerschmitte/01-JS/compare/v1.0.2-prerelease.1...v1.0.2-prerelease.2) (2023-11-22)
 

@@ -1,6 +1,6 @@
 {
   "name": "rpc-game",
-  "version": "1.0.1",
+  "version": "1.0.2-prerelease.3",
   "description": "Rock Paper Scissors, multiplayer and singleplayer",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -8,17 +8,18 @@
     "build": "parcel build src/index.html",
     "prepare": "husky install",
     "lint": "eslint src/**/*.js",
-    "release": "standard-version",
-    "release-patch": "standard-version --release-as patch",
-    "release-minor": "standard-version --release-as minor",
-    "release-major": "standard-version --release-as major",
-    "prerelease": "standard-version --prerelease prerelease"
+    "release": "commit-and-tag-version",
+    "release-patch": "commit-and-tag-version --release-as patch",
+    "release-minor": "commit-and-tag-version --release-as minor",
+    "release-major": "commit-and-tag-version --release-as major",
+    "prerelease": "commit-and-tag-version --prerelease prerelease"
   },
   "author": "Evano Seraus",
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
+    "commit-and-tag-version": "^12.0.0",
     "eslint": "^8.49.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -33,8 +34,7 @@
     "husky": "^8.0.0",
     "lint-staged": "^14.0.1",
     "parcel": "^2.9.3",
-    "prettier": "^3.0.3",
-    "standard-version": "^9.5.0"
+    "prettier": "^3.0.3"
   },
   "dependencies": {
     "core-js": "^3.32.1",
@@ -44,7 +44,7 @@
     "src/**/*.{js,css,html}": "prettier --write",
     "src/**/*.js": "eslint"
   },
-  "standard-version": {
+  "commit-and-tag-version": {
     "skip": {
       "bump": false,
       "commit": true,
